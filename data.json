@@ -11,7 +11,7 @@
         "url": "td.title a",
         "vote": "td.title a.replyNum",
         "time": "td.time",
-        "views": "td.m_no",
+        "views": "td.m_no"
       }
     }
   ]
