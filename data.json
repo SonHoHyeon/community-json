@@ -1,5 +1,18 @@
 {
-  "name": "John Doe",
-  "age": 30,
-  "hobbies": ["cycling", "hiking", "coding"]
+  "version": 1,
+  "site": [
+    {
+      "name": "더쿠(핫)",
+      "domain": "https://theqoo.net/hot?filter_mode=normal&page=",
+      "lastNotiIndex": 5,
+      "tag": {
+        "contents": "tbody tr",
+        "title": "td title",
+        "url": "td.title a",
+        "vote": "td.title a.replyNum",
+        "time": "td.time",
+        "views": "td.m_no",
+      }
+    }
+  ]
 }
