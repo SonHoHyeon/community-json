@@ -123,6 +123,51 @@
           }
         }
       ]
+    },
+    {
+      "key": "ppomppu",
+      "name": "뽐뿌",
+      "sub": [
+        {
+          "name": "뽐뿌게시판",
+          "domain": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu&page=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "a.baseList-title",
+            "url": "a.baseList-title",
+            "replyCnt": "span.baseList-c",
+            "views": "td.baseList-views",
+            "time": "time.baseList-time"
+          }
+        },
+        {
+          "name": "이것저것공유",
+          "domain": "https://www.ppomppu.co.kr/zboard/zboard.php?id=etc_info&page=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "a.baseList-title",
+            "url": "a.baseList-title",
+            "replyCnt": "span.baseList-c",
+            "views": "td.baseList-views",
+            "time": "time.baseList-time"
+          }
+        },
+        {
+          "name": "핫게시글",
+          "domain": "https://www.ppomppu.co.kr/hot.php?page=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "a.baseList-title",
+            "url": "a.baseList-title",
+            "replyCnt": "span.list_comment2",
+            "views": "td.board_date:nth-child(3)",
+            "time": "td.board_date:nth-child(1)"
+          }
+        }
+      ]
     }
   ]
 }
