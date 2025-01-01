@@ -4,6 +4,7 @@
     {
       "key": "theqoo",
       "name": "더쿠",
+      "domain": "https://theqoo.net",
       "sub": [
         {
           "name": "전체",
@@ -125,8 +126,29 @@
       ]
     },
     {
+      "key": "etoland",
+      "name": "이토랜드",
+      "domain": "https://www.etoland.co.kr",
+      "sub": [
+        {
+          "name": "HIT인기",
+          "domain": "https://www.etoland.co.kr/bbs/hit.php?page=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "ul.hit_list li.hit_item",
+            "title": "p.subject",
+            "url": "a.content_link",
+            "replyCnt": "span.comment_cnt",
+            "views": "span.hit",
+            "time": "span.datetime"
+          }
+        }
+      ]
+    },
+    {
       "key": "inven",
       "name": "인벤",
+      "domain": "https://www.inven.co.kr",
       "sub": [
         {
           "name": "전체뉴스",
@@ -159,6 +181,7 @@
     {
       "key": "ppomppu",
       "name": "뽐뿌",
+      "domain": "https://www.ppomppu.co.kr",
       "sub": [
         {
           "name": "뽐뿌게시판",
