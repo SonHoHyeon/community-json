@@ -1,18 +1,126 @@
 {
   "version": 1,
   "site": [
-    {
-      "name": "더쿠(핫)",
-      "domain": "https://theqoo.net/hot?filter_mode=normal&page=",
-      "lastNotiIndex": 5,
-      "tag": {
-        "contents": "tbody tr",
-        "title": "td title",
-        "url": "td.title a",
-        "vote": "td.title a.replyNum",
-        "time": "td.time",
-        "views": "td.m_no"
+    "key": "theqoo",
+    "name": "더쿠",
+    "sub": [
+      {
+        "name": "전체",
+        "domain": "https://theqoo.net/total?page=",
+        "lastNotiIndex": 4,
+        "tag": {
+          "contents": "tbody tr",
+          "title": "td.title a",
+          "url": "td.title a",
+          "replyCnt": "td.title a.replyNum",
+          "views": "td.m_no",
+          "time": "td.time"
+        }
+      },
+      {
+        "name": "HOT",
+        "domain": "https://theqoo.net/hot?page=",
+        "lastNotiIndex": 4,
+        "tag": {
+          "contents": "tbody tr",
+          "title": "td.title a",
+          "url": "td.title a",
+          "replyCnt": "td.title a.replyNum",
+          "views": "td.m_no",
+          "time": "td.time"
+        }
+      },
+      {
+        "name": "스퀘어",
+        "domain": "https://theqoo.net/square?page=",
+        "lastNotiIndex": 4,
+        "tag": {
+          "contents": "tbody tr",
+          "title": "td.title a",
+          "url": "td.title a",
+          "replyCnt": "td.title a.replyNum",
+          "views": "td.m_no",
+          "time": "td.time"
+        }
+      },
+      {
+        "name": "뷰티",
+        "domain": "https://theqoo.net/beauty?page=",
+        "lastNotiIndex": 11,
+        "tag": {
+          "contents": "tbody tr",
+          "title": "td.title a",
+          "url": "td.title a",
+          "replyCnt": "td.title a.replyNum",
+          "views": "td.m_no",
+          "time": "td.time"
+        }
+      },
+      {
+        "name": "일상토크",
+        "domain": "https://theqoo.net/talk?page=",
+        "lastNotiIndex": 6,
+        "tag": {
+          "contents": "tbody tr",
+          "title": "td.title a",
+          "url": "td.title a",
+          "replyCnt": "td.title a.replyNum",
+          "views": "td.m_no",
+          "time": "td.time"
+        }
+      },
+      {
+        "name": "케이돌토크",
+        "domain": "https://theqoo.net/ktalk?page=",
+        "lastNotiIndex": 10,
+        "tag": {
+          "contents": "tbody tr",
+          "title": "td.title a",
+          "url": "td.title a",
+          "replyCnt": "td.title a.replyNum",
+          "views": "td.m_no",
+          "time": "td.time"
+        }
+      },
+      {
+        "name": "드영배",
+        "domain": "https://theqoo.net/dyb?page=",
+        "lastNotiIndex": 13,
+        "tag": {
+          "contents": "tbody tr",
+          "title": "td.title a",
+          "url": "td.title a",
+          "replyCnt": "td.title a.replyNum",
+          "views": "td.m_no",
+          "time": "td.time"
+        }
+      },
+      {
+        "name": "재팬",
+        "domain": "https://theqoo.net/japan?page=",
+        "lastNotiIndex": 4,
+        "tag": {
+          "contents": "tbody tr",
+          "title": "td.title a",
+          "url": "td.title a",
+          "replyCnt": "td.title a.replyNum",
+          "views": "td.m_no",
+          "time": "td.time"
+        }
+      },
+      {
+        "name": "덬딜",
+        "domain": "https://theqoo.net/theqdeal?page=",
+        "lastNotiIndex": 9,
+        "tag": {
+          "contents": "tbody tr",
+          "title": "td.title a",
+          "url": "td.title a",
+          "replyCnt": "td.title a.replyNum",
+          "views": "td.m_no",
+          "time": "td.time"
+        }
       }
-    }
+    ]
   ]
 }
