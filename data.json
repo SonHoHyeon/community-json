@@ -247,6 +247,55 @@
       ]
     },
     {
+      "key": "humoruniv",
+      "name": "웃긴대학",
+      "domain": "https://web.humoruniv.com",
+      "sub": [
+        {
+          "name": "오늘의베스트",
+          "domain": "https://web.humoruniv.com/board/humor/list.html?table=pds&st=day&pg=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "a.li span",
+            "url": "a.li",
+            "user": "span.hu_nick_txt",
+            "replyCnt": "span.list_comment_num",
+            "views": "td.li_und",
+            "time": "td.li_date"
+          }
+        },
+        {
+          "name": "웃긴자료",
+          "domain": "https://web.humoruniv.com/board/humor/list.html?table=pds&pg=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "a.li span",
+            "url": "a.li",
+            "user": "span.hu_nick_txt",
+            "replyCnt": "span.list_comment_num",
+            "views": "td.li_und",
+            "time": "td.li_date"
+          }
+        },
+        {
+          "name": "대기자료",
+          "domain": "https://web.humoruniv.com/board/humor/list.html?table=pdswait&pg=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "a.li span",
+            "url": "a.li",
+            "user": "span.hu_nick_txt",
+            "replyCnt": "span.list_comment_num",
+            "views": "td.li_und",
+            "time": "td.li_date"
+          }
+        }
+      ]
+    },
+    {
       "key": "ygosu",
       "name": "와이고수",
       "domain": "https://ygosu.com",
