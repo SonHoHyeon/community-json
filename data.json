@@ -125,6 +125,38 @@
       ]
     },
     {
+      "key": "inven",
+      "name": "인벤",
+      "sub": [
+        {
+          "name": "전체뉴스",
+          "domain": "https://www.inven.co.kr/webzine/news/?page=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "span.title",
+            "url": "div.content a",
+            "replyCnt": "span.cmtnum",
+            "views": "",
+            "time": "span.info"
+          }
+        },
+        {
+          "name": "오픈이슈갤러리",
+          "domain": "https://www.inven.co.kr/board/webzine/2097?iskin=webzine&p=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "a.subject-link",
+            "url": "a.subject-link",
+            "replyCnt": "span.con-comment",
+            "views": "td.view",
+            "time": "td.date"
+          }
+        }
+      ]
+    },
+    {
       "key": "ppomppu",
       "name": "뽐뿌",
       "sub": [
