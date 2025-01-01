@@ -226,6 +226,55 @@
       ]
     },
     {
+      "key": "ygosu",
+      "name": "와이고수",
+      "domain": "https://www.ppomppu.co.kr",
+      "sub": [
+        {
+          "name": "실시간인기",
+          "domain": "https://ygosu.com/board/real_article/?type=normal&searcht=&search=&page=",
+          "lastNotiIndex": 2,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "td.tit a",
+            "url": "td.tit a",
+            "user": "td.name a",
+            "replyCnt": "span.reply_cnt",
+            "views": "td.read",
+            "time": "td.date"
+          }
+        },
+        {
+          "name": "실시간스타방송인기",
+          "domain": "https://ygosu.com/board/real_article/?type=starbbs&searcht=&search=&page=",
+          "lastNotiIndex": 4,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "td.tit a",
+            "url": "td.tit a",
+            "user": "td.name a",
+            "replyCnt": "span.reply_cnt",
+            "views": "td.read",
+            "time": "td.date"
+          }
+        },
+        {
+          "name": "실시간인터넷방송인기",
+          "domain": "https://ygosu.com/board/real_article/?type=ib&searcht=&search=&page=",
+          "lastNotiIndex": 4,
+          "tag": {
+            "contents": "tbody tr",
+            "title": "td.tit a",
+            "url": "td.tit a",
+            "user": "td.name a",
+            "replyCnt": "span.reply_cnt",
+            "views": "td.read",
+            "time": "td.date"
+          }
+        }
+      ]
+    },
+    {
       "key": "ppomppu",
       "name": "뽐뿌",
       "domain": "https://www.ppomppu.co.kr",
