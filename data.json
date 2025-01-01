@@ -2,6 +2,27 @@
   "version": 1,
   "site": [
     {
+      "key": "ygosu",
+      "name": "개드립",
+      "domain": "https://www.dogdrip.net",
+      "sub": [
+        {
+          "name": "인기글",
+          "domain": "https://www.dogdrip.net/dogdrip?sort_index=popular&page=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "ul list li",
+            "title": "a.title-link",
+            "url": "a.title-link",
+            "user": "a.link-reset",
+            "replyCnt": "a.title-link span",
+            "views": "",
+            "time": "span.text-muted"
+          }
+        }
+      ]
+    },
+    {
       "key": "theqoo",
       "name": "더쿠",
       "domain": "https://theqoo.net",
