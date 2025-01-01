@@ -14,6 +14,7 @@
             "contents": "tbody tr",
             "title": "td.title a",
             "url": "td.title a",
+            "user": "",
             "replyCnt": "td.title a.replyNum",
             "views": "td.m_no",
             "time": "td.time"
@@ -27,6 +28,7 @@
             "contents": "tbody tr",
             "title": "td.title a",
             "url": "td.title a",
+            "user": "",
             "replyCnt": "td.title a.replyNum",
             "views": "td.m_no",
             "time": "td.time"
@@ -40,6 +42,7 @@
             "contents": "tbody tr",
             "title": "td.title a",
             "url": "td.title a",
+            "user": "",
             "replyCnt": "td.title a.replyNum",
             "views": "td.m_no",
             "time": "td.time"
@@ -53,6 +56,7 @@
             "contents": "tbody tr",
             "title": "td.title a",
             "url": "td.title a",
+            "user": "",
             "replyCnt": "td.title a.replyNum",
             "views": "td.m_no",
             "time": "td.time"
@@ -66,6 +70,7 @@
             "contents": "tbody tr",
             "title": "td.title a",
             "url": "td.title a",
+            "user": "",
             "replyCnt": "td.title a.replyNum",
             "views": "td.m_no",
             "time": "td.time"
@@ -79,6 +84,7 @@
             "contents": "tbody tr",
             "title": "td.title a",
             "url": "td.title a",
+            "user": "",
             "replyCnt": "td.title a.replyNum",
             "views": "td.m_no",
             "time": "td.time"
@@ -92,6 +98,7 @@
             "contents": "tbody tr",
             "title": "td.title a",
             "url": "td.title a",
+            "user": "",
             "replyCnt": "td.title a.replyNum",
             "views": "td.m_no",
             "time": "td.time"
@@ -105,6 +112,7 @@
             "contents": "tbody tr",
             "title": "td.title a",
             "url": "td.title a",
+            "user": "",
             "replyCnt": "td.title a.replyNum",
             "views": "td.m_no",
             "time": "td.time"
@@ -118,9 +126,45 @@
             "contents": "tbody tr",
             "title": "td.title a",
             "url": "td.title a",
+            "user": "",
             "replyCnt": "td.title a.replyNum",
             "views": "td.m_no",
             "time": "td.time"
+          }
+        }
+      ]
+    },
+    {
+      "key": "ruliweb",
+      "name": "루리웹",
+      "domain": "https://www.ruliweb.com",
+      "sub": [
+        {
+          "name": "게임뉴스",
+          "domain": "https://bbs.ruliweb.com/news?&page=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "center_list ul.row li",
+            "title": "strong.title",
+            "url": "a.deco",
+            "user": "",
+            "replyCnt": "span.num_reply",
+            "views": "span.create_time",
+            "time": "span.create_time"
+          }
+        },
+        {
+          "name": "베스트",
+          "domain": "https://m.ruliweb.com/best/all/now?page=",
+          "lastNotiIndex": 0,
+          "tag": {
+            "contents": "tbody tr.blocktarget",
+            "title": "a.deco",
+            "url": "a.deco",
+            "user": "span.writer",
+            "replyCnt": "span.num",
+            "views": "span.hit",
+            "time": "span.time"
           }
         }
       ]
@@ -138,6 +182,7 @@
             "contents": "ul.hit_list li.hit_item",
             "title": "p.subject",
             "url": "a.content_link",
+            "user": "span.nick",
             "replyCnt": "span.comment_cnt",
             "views": "span.hit",
             "time": "span.datetime"
@@ -158,6 +203,7 @@
             "contents": "tbody tr",
             "title": "span.title",
             "url": "div.content a",
+            "user": "",
             "replyCnt": "span.cmtnum",
             "views": "",
             "time": "span.info"
@@ -171,6 +217,7 @@
             "contents": "tbody tr",
             "title": "a.subject-link",
             "url": "a.subject-link",
+            "user": "span.layerNickName",
             "replyCnt": "span.con-comment",
             "views": "td.view",
             "time": "td.date"
@@ -191,6 +238,7 @@
             "contents": "tbody tr",
             "title": "a.baseList-title",
             "url": "a.baseList-title",
+            "user": "span.baseList-name",
             "replyCnt": "span.baseList-c",
             "views": "td.baseList-views",
             "time": "time.baseList-time"
@@ -204,6 +252,7 @@
             "contents": "tbody tr",
             "title": "a.baseList-title",
             "url": "a.baseList-title",
+            "user": "span.baseList-name",
             "replyCnt": "span.baseList-c",
             "views": "td.baseList-views",
             "time": "time.baseList-time"
@@ -217,6 +266,7 @@
             "contents": "tbody tr",
             "title": "a.baseList-title",
             "url": "a.baseList-title",
+            "user": "span.baseList-name",
             "replyCnt": "span.list_comment2",
             "views": "td.board_date:nth-child(3)",
             "time": "td.board_date:nth-child(1)"
