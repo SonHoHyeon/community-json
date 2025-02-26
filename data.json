@@ -30,7 +30,7 @@
         {
           "name": "전체",
           "domain": "https://theqoo.net/total?page=",
-          "lastNotiIndex": 4,
+          "lastNotiIndex": 6,
           "tag": {
             "contents": "tbody tr",
             "title": "td.title a",
