@@ -15,7 +15,7 @@
             "title": "a.title-link",
             "url": "a.title-link",
             "user": "a.link-reset",
-            "replyCnt": "a.title-link span",
+            "replyCnt": "h5.title span",
             "views": "",
             "time": "span.text-muted"
           }
