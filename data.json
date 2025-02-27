@@ -11,7 +11,7 @@
           "domain": "https://www.dogdrip.net/dogdrip?sort_index=popular&page=",
           "lastNotiIndex": 0,
           "tag": {
-            "contents": "ul list li",
+            "contents": "ul.list li",
             "title": "a.title-link",
             "url": "a.title-link",
             "user": "a.link-reset",
